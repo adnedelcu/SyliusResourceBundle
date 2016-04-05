@@ -56,6 +56,6 @@ class CollectionExtension extends AbstractTypeExtension
      */
     public function getExtendedType()
     {
-        return 'collection';
+        return 'Symfony\Component\Form\Extension\Core\Type\CollectionType';
     }
 }
